@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "flags": {
+            "svg": "https://flagcdn.com/bg.svg",
+            "png": "https://flagcdn.com/w320/bg.png"
+        },
+        "currencies": {
+            "code": "BGN",
+            "name": "Bulgarian lev",
+            "symbol": "лв"
+        }
+    },
+    {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "flags": {
+            "svg": "https://flagcdn.com/sc.svg",
+            "png": "https://flagcdn.com/w320/sc.png"
+        },
+        "currencies": {
+            "code": "SCR",
+            "name": "Seychellois rupee",
+            "symbol": "₨"
+        }
+    },
+    {
+        "name": "Slovakia",
+        "capital": "Bratislava",
+        "flags": {
+            "svg": "https://flagcdn.com/sk.svg",
+            "png": "https://flagcdn.com/w320/sk.png"
+        },
+        "currencies": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        }
+    },
+    {
+        "name": "Spain",
+        "capital": "Madrid",
+        "flags": {
+            "svg": "https://flagcdn.com/es.svg",
+            "png": "https://flagcdn.com/w320/es.png"
+        },
+        "currencies": {
+            "code": "EUR",
+            "name": "Euro",
+            "symbol": "€"
+        },
+        "independent": false
+    },
+    {
+        "name": "Ukraine",
+        "capital": "Kyiv",
+        "flags": {
+            "svg": "https://flagcdn.com/ua.svg",
+            "png": "https://flagcdn.com/w320/ua.png"
+        },
+        "currencies": [
+            {
+                "code": "UAH",
+                "name": "Ukrainian hryvnia",
+                "symbol": "₴"
+            }
+        ],
+        "independent": false
+    }
+]
