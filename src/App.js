@@ -1,3 +1,21 @@
+// УРОК 3 Модуль  2
+
+import Counter from '../src/componenets/Counter/Counter';
+
+
+export const App = () => {
+    return (<div>
+        <Counter initValue={0} />
+    </div>)
+};
+
+
+
+
+
+
+
+
 
 
 // import { RecepsList } from "./componenets/Recepts/ReceptsList"
@@ -50,21 +68,21 @@
 
 
 
-// УРОК 2/3
-import { PageTitle } from './componenets/PageTitle/PageTitle';
-import { EventBoard } from './componenets/EventBoard/EventBoard';
-import configEvents from './events.json';
-import { Conteiner } from './componenets/App/App.styled'
+// // УРОК 2/3
+// import { PageTitle } from './componenets/PageTitle/PageTitle';
+// import { EventBoard } from './componenets/EventBoard/EventBoard';
+// import configEvents from './events.json';
+// import { Conteiner } from './componenets/App/App.styled'
 
 
-export const App = () => {
-    return (
-        <Conteiner>
-            <PageTitle text="24th Core Worlds Coalition Conference" />
-            <EventBoard events={configEvents} />
-        </Conteiner>
-    );
-}
+// export const App = () => {
+//     return (
+//         <Conteiner>
+//             <PageTitle text="24th Core Worlds Coalition Conference" />
+//             <EventBoard events={configEvents} />
+//         </Conteiner>
+//     );
+// }
 
 
 
