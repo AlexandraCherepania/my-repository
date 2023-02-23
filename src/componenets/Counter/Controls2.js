@@ -1,19 +1,19 @@
 import React from "react";
 import css from "../Counter/Counter.module.css"
 
-const Controls = ({ onIncr, onDecr }) => 
+
+
+const Controls2 = ({ onIncr, onDecr }) => 
     <div className={css.Counter__controls}>
-
         <button type="button" onClick={onIncr}>
-            Збільшити на 1
+            Увеличить на 1
         </button>
-
         <button type="button" onClick={onDecr}>
-            Зменшити на 1
+            Уменьшить на 1
         </button>
 
     </div>
 
 
 
-export default Controls;
+export default Controls2;
